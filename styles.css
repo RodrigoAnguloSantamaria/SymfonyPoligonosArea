@@ -1,0 +1,31 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+.form{
+    display: flex; 
+    flex-direction: column;
+     width: 30%;
+    
+}
+select{
+    margin: 10px;
+}
+input{
+    height: 20px;
+    margin: 5px;
+}
+span{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

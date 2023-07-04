@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcular areas</title>
+    
+    <script src="funciones.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+    <h2>Calcula el area de los poligonos</h2>
+    <form id="form" action="poligonoElegido.php" method="POST" class="form">
+        <select name="poligono" onchange="printInputs(event)">
+            <option >Elige un poligono</option>
+            <OPTion value="circulo">Circulo</OPTion>
+            <OPTion value="cuadrado">Cuadrado</OPTion>
+            <OPTion value="rectangulo">Rectangulo</OPTion>
+            <OPTion value="triangulo">Triangulo</OPTion>
+            <OPTion value="rombo">Rombo</OPTion>
+        </select>
+        
+    </div>
+</body>
+</html>
